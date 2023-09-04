@@ -201,9 +201,9 @@ body {
   transition: var(--transition-2);
 }
 
-.btn-primary.blue { background-color: var(--klein-blue); }
+.btn-primary.blue { background-color:aqua; }
 
-.btn-primary.blue:is(:hover, :focus) { background-color: var(--orange-soda); }
+.btn-primary.blue:is(:hover, :focus) { background-color: rgb(254, 0, 212); }
 
 .img-cover {
   width: 100%;
@@ -214,7 +214,7 @@ body {
 .section { padding-block: var(--section-padding); }
 
 .section-subtitle {
-  color: var(--orange-soda);
+  color: aqua;
   font-family: var(--ff-barlow);
   font-size: var(--fs-4);
   text-align: center;
@@ -303,10 +303,10 @@ body {
   transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus) { color: var(--orange-soda); }
+.navbar-link:is(:hover, :focus) { color: aqua; }
 
 .navbar .btn {
-  background-color: var(--orange-soda);
+  background-color: aqua;
   margin-block-start: 15px;
 }
 
@@ -491,7 +491,7 @@ body {
 }
 
 .skills-progress {
-  background-color: var(--orange-soda);
+  background-color: aqua;
   height: 100%;
   border-radius: inherit;
 }
@@ -543,8 +543,8 @@ textarea.contact-input {
 }
 
 .btn-submit {
-  background-color: var(--orange-soda);
-  color: var(--white);
+  background-color: white;
+  color: #a6a1a1;
   font-family: var(--ff-barlow);
   font-size: var(--fs-5);
   width: 100%;
@@ -554,7 +554,7 @@ textarea.contact-input {
 }
 
 .btn-submit:is(:hover, :focus) {
-  background-color: var(--white);
+  background-color: aqua;
   color: var(--black);
 }
 
